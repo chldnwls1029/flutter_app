@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ListviewPage extends StatefulWidget {
+  const ListviewPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ListviewPage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<ListviewPage> {
 
   final postList = [
     {

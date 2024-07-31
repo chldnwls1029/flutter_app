@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(const AlertPage());
 }
 
-class MyApp extends StatelessWidget {
-  const MyApp({super.key});
+class AlertPage extends StatelessWidget {
+  const AlertPage({super.key});
 
   get builder => null;
 

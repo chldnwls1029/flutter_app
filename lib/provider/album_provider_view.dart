@@ -2,15 +2,17 @@ import 'package:flutter/material.dart';
 
 import '../model/album.dart';
 import 'album_provider.dart';
+import 'package:provider/provider.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+
+class AlbumProviderViewPage extends StatefulWidget {
+  const AlbumProviderViewPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<AlbumProviderViewPage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<AlbumProviderViewPage> {
 
   late List<Album> albumList;
 

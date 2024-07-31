@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ColumnLowpage extends StatefulWidget {
+  const ColumnLowpage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ColumnLowpage> createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State<ColumnLowpage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
