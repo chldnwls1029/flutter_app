@@ -7,7 +7,7 @@ import 'Bottom_Navigator_Bar.dart';
 import 'alert.dart';
 import 'align.dart';
 import 'button.dart';
-import 'column_low.dart';
+import 'column_row.dart';
 import 'form_home_page.dart';
 import 'image.dart';
 import 'listview.dart';
